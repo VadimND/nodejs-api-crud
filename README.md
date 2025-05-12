@@ -1,4 +1,4 @@
-# 🚀 Node.js CRUD API
+# 🚀 Node.js CRUD API project
 
 ## 📝 Description
 
@@ -37,6 +37,13 @@ Default endpoint: http://localhost:3000/api/users
 ## 🧪 Running Tests
 
 `npm run test` - run unit tests
+
+## 🏹 CRUD Commands
+
+- POST `curl 'localhost:3333/api/users' --data '{"username": "John","age": 41,"profession": "teacher"}'`
+- GET `curl 'localhost:3333/api/users'`
+- POST `curl --request PUT 'localhost:3333/api/users/{id}' --data '{"username": "Sam","age": 25,"profession":"lawyer"}'`
+- DELETE `curl --request DELETE 'localhost:3333/api/users/{id}'`
 
 ## 📌 Technical Requirements
 

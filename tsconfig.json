@@ -1,6 +1,5 @@
 {
-    "compilerOptions": {
-      /* Language and Environment */
+    "compilerOptions": {     
       "target": "es2016",
       "lib": ["es2020"],
   

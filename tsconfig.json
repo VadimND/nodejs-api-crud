@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      /* Language and Environment */
+      "target": "es2016",
+      "lib": ["es2020"],
+  
+      /* Modules */
+      "module": "commonjs",
+      "baseUrl": "src",
+  
+      /* Emit */
+      "outDir": "dist",
+      "removeComments": true,
+  
+      /* Interop Constraints */
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Type Checking */
+      "strict": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+  
+      /* Completeness */
+      "skipLibCheck": true,
+      "maxNodeModuleJsDepth": 0
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
